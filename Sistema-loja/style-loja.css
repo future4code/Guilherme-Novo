@@ -1,0 +1,135 @@
+body {
+    background: seagreen;
+}
+
+h1 {
+    display: inline;
+    font-size: 41px;
+    color: goldenrod;
+    line-height: 0.60;
+    
+} 
+
+h2 {
+
+    position: absolute;
+    top:   250px;
+    left: 60px;
+}
+
+h3 {
+    position: absolute;
+    top: 312px;
+    left: 517px;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.controle{
+    position: fixed;
+    top: 10px;
+    left: 60px;
+    font-size: 30px;
+
+}
+header  {
+    
+    background-color: darkslategrey;
+    height: 1em;
+    position: fixed; 
+    width: auto;
+    padding: 40px;
+    right: 0px;
+    top: 0px;
+    left: 0px;  
+}
+
+nav {
+    position: fixed;
+    color: Black;
+    top: 0px;
+    right: 16px;
+}
+
+nav li {
+    
+    position: relative;
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    top: 36px;
+
+}
+
+footer {
+    
+    position: fixed;
+    background: linear-gradient(45deg, black, transparent);
+    padding: 72px 0;
+    width: 100%;
+    bottom: 0;
+    right: 0px;
+
+}
+
+.sugestao {
+    position: fixed;
+    display: inline;
+    font-size: 34px;
+    margin: 0px -34px;
+    bottom: 30px;
+    left: 350px;
+}
+
+.container-footer {
+    width: 650px;
+    position: absolute;
+    height: 65px;
+    bottom: 28px;
+    margin-right: 12px;
+    left: 620px;    
+}
+
+.icones {
+    width: 7%;
+    padding: 3px 34px;
+
+}
+
+.ordem-funcionario {
+    position: fixed;
+    font-size: 20px;
+    color: navajowhite;
+    top: 298px;
+    left: 20px;
+}
+
+form {
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    font-size: 18px;
+}
+
+.add-produto {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.naja {
+    position: absolute;
+    width: 483px;
+    right: 15px;
+    top: 48px;
+}
+
+.amimir {
+    position: absolute;
+    width: 573px;
+    right: 257px;
+    /* top: 159px; */
+    bottom: 97px
+}
