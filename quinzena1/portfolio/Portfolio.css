@@ -1,0 +1,259 @@
+body {
+      background: whitesmoke;
+}
+
+#bodyy {
+    background: whitesmoke;
+}
+
+#fundo-externo {
+    overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: 100%;
+    position: relative; /* criamos um contexto para posicionamento */
+}
+
+#fundo {
+    position: fixed; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+    width: 100%;
+    height: 100%;
+}
+
+#advogado   {
+
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+}
+
+span {
+    color: rgba(230, 116, 10, 0.911) ;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+header  {
+    
+    background-color: royalblue;
+    height: 1em;
+    text-decoration: none;
+    position: fixed; 
+    width: auto;
+    padding: 40px;
+    right: 0px;
+    top: 0px;
+    left: 0px;  
+}
+
+h1 {
+    
+    display: inline;
+    font-size: 41px;
+    color: whitesmoke;
+    line-height: 0.60;
+}  
+
+
+#nome-inicio {
+
+    font-family: inherit;
+    font-size: 33px;
+    right: 348px;
+    position: fixed;
+    top: 232px;
+    color: black;
+    transform: rotate(-90deg);
+
+}
+h2 {
+    
+    position: absolute;
+    top: 383px;
+    left: 733px;
+}
+
+h3 {
+    position: absolute;
+    left: 740px;
+    top: 500px;
+    width: 17%;
+}
+
+
+nav {
+
+    position: fixed;
+    top: 0px;
+    padding: 13px;
+    right: 0;
+    
+
+}
+
+nav li {
+    font-style: verdana;
+    position: relative;
+    display: inline-block;
+	text-align: right;
+    text-transform: uppercase;
+    color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+    top: 0px;
+    right:0px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.titulo-principal {
+
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    font-size: 41px;
+    color: white;
+    line-height: 1.38
+
+}
+
+.subdescricao{
+
+    position: absolute;
+    top: 340px;
+    left: 60px;
+    font-size: 25px;
+    color: white;
+    line-height: 1.89;
+}
+
+#banner {
+    position: absolute;
+    height: 50%;
+    top: 232px;
+    right: 84px;
+}
+
+
+/*pagina de contato*/
+
+.contato {
+	width: 940px;
+	margin: 40px auto;
+}
+form{
+    position: relative;
+    top: 115px;
+    left: 5%;
+
+}
+.input-padrao {
+    display: block;
+    margin: 31px;
+    padding: 10px 25px;
+    width: 35%;
+}
+
+.enviar {
+    position: absolute;
+	width: 18%;
+	padding: 17px 0;
+    background: lightseagreen;
+    left: 30px;
+    margin: 1px;
+}
+
+/*footer */
+footer {
+    
+    position: fixed;
+    background: lightblue;
+    padding: 72px 0;
+    width:100%;
+    bottom: 0;
+    right: 0px;
+     
+}
+#cor-footer {
+    background-color: lightcoral;
+
+}
+#icone-instagram {
+    width: 71px;
+    margin: 18px;
+
+}
+#icone-facebook {
+    width: 71px;
+    margin: 18px;
+
+}#icone-gmail {
+    width: 71px;
+    margin: 18px;
+
+}
+.container-footer {
+    position: absolute;
+    bottom: 13px;
+    margin-right: 12px;
+    left: 750px;
+}
+
+.sugestao {
+    position: absolute;
+    display: inline;
+    font-size: 20px;
+    bottom: 6px;
+    left: 316px;
+}
+.main-class {
+    
+    width: 600px;
+    margin: 0 550px;
+          
+} 
+.linha {
+    
+    top: 150px;
+    position: absolute;
+    /* display: inline; */
+    color: white;
+    width: 21%;
+
+}
+.ano {
+    position: absolute;
+    top: 81px;
+    left: 420px;
+    /* width: 283px; */
+    font-size: 48px;
+}
+
+#texto {
+    font-family: ebrima;
+    font-size: 22px;
+    width: 127px;
+    height: 501px;
+    top: 160px;
+    left: 850px;
+}
+.site-plantas {
+    position: absolute;
+    width: 646px;
+    height: 331px;
+    top: 117px;
+    right: 16px;
+    
+}
+
+.projeto-labenu {
+    width: 646px;
+    height: 331px;
+    bottom: 170px;
+    right: 16px;
+    position: absolute;
+}
+
