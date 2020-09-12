@@ -1,0 +1,45 @@
+{
+    margin: 0;
+    padding: 0;
+    -webkit-boz-sizing: border-box;
+        -moz-boz-sizing: border-box;
+            box-sizing: border-box
+
+}
+header {
+    display: grid;
+    background-color: coral;
+    grid-template-columns: auto auto;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+.main {
+    background: bisque;
+}
+.main-container {
+    display: grid;
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+}
+video {
+        
+    display: grid;
+    height: 60%;
+    width: 95%;
+    
+}
+footer {
+    position: fixed;
+    background: black;
+    width: 100%;    
+    bottom: 0;
+    right: 0px;
+    color: white;
+    
+}
