@@ -1,0 +1,251 @@
+.main-container2 {
+
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border-bottom: 1px solid lightgray;
+    
+}
+@media screen and (min-width : 320px) and (max-width : 420px) {
+    .circulo-laranjado {
+    display: inline-block;
+ }
+}
+ 
+.circulo-verde {
+    display: grid;
+    position: relative;
+    align-content: end;
+    left: -110px;
+}
+.circulo-laranjado {
+    display: grid;
+    position: relative;
+    align-content: end;
+    
+}
+.quemSomos2 {
+    background:white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.buscador {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#Email {
+    width: 60%;
+    display: grid;
+    justify-content: flex-start;
+    border: 1px solid black;
+    height: 14%;
+    background: whitesmoke;
+}
+#Email2 {
+    width: 100%;
+    display: grid;
+    justify-content: flex-start;
+    border: 1px solid black;
+   
+}
+
+.botaoBuscar {
+    display: grid;
+    width: 90%;  
+    background: coral;
+    font-size: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background: orange;
+    border-radius: 8px;
+}
+.fraseQuemSomos {
+    color: black;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    font-size: x-large;
+    font-family: ebrima;
+    text-transform: uppercase;
+    position: relative;
+    align-items: end;
+    text-align: center;
+    text-align: center;
+    border: 2px solid burlywood;
+    background: whitesmoke;
+}
+
+.fraseQuemSomos2 {
+    
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: ebrima;
+    color: black;
+    font-weight: bold;
+    border: 2px solid yellowgreen;
+    text-transform: uppercase;
+    margin-top: 50px;
+    background: whitesmoke;
+}
+.botao-da-main {
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+}
+.botão-refeição-do-dia {
+    display: inline;
+    position: relative;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.botão-Supermercado {
+    margin: 15px;
+    padding: 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;    
+}
+.btn {
+    font-family: embrima;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background: orange;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    
+}
+.btn-yellow:hover{
+    background: orange;
+    color: #fff;
+    box-shadow: 0 2px 0 lightcoral;
+}
+.btn-yellow:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.main-container3 {
+    display: grid;
+    grid-template-rows: 470px;
+    grid-template-columns: 10% 80% 10%;
+    color: white;
+    border: 1px solid white;
+    height: 430px;
+    padding: 25px;  
+ }
+.container-endereço {
+    display: grid;
+    color: black;
+    height: 430px;
+    border-radius: 30px;
+    background: whitesmoke;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+.h1-container3 {
+    display: grid;
+    position: relative;
+    color: black;
+    font-size: 25px;
+    place-content: center;
+    text-transform: uppercase;
+    font-family: ebrima;
+    grid-column: 3 / 9;
+}
+
+
+.h1-comprimido {
+    display: grid;
+    width: 476px;
+    height: 424px;
+}
+
+
+.h1-colums {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.h1-colums2 {
+    display: grid;
+    grid-column: 2 / 8;
+}
+.h1-conteudo {
+    display: block;
+    
+}
+
+.texto-principal {
+    margin-bottom: 90px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;  
+    
+}
+form {
+    margin-left: 0px;
+    margin-top: 1.5rem;
+}
+.div-form{
+    display: block;
+}
+.div-cor {
+    background: white;
+}
+
+.buscador-cep {
+    display: grid;
+    width: 100%;
+    height: 43px;
+}
+
+.container-cep {
+    display: grid;
+    margin-left: 3px;
+    margin-top: 0.5rem;
+}
+.botaoBuscarCep {
+    display: grid;
+    width: 95%;  
+    background: coral;
+    font-size: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background: orange;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+.btn-red:hover{
+    background: orange;
+    box-shadow: 0 2px 0 red;
+}
